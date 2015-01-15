@@ -1,7 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Recipe
-pages: true
+pages: false
 files: true
 fields:
   title:
@@ -12,7 +12,7 @@ fields:
     type:  textarea
   ingredients:
     label: Ingredients
-    type: structure
+    type: recipe
     entry: >
       {{ingredient}} - {{amount}}
     fields:
@@ -24,7 +24,7 @@ fields:
         type: text
   directions:
     label: Directions
-    type: structure
+    type: recipe
     entry: >
       {{step}}
     fields:
