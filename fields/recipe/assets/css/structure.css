@@ -1,0 +1,40 @@
+.recipe {
+  padding-bottom: 0;
+}
+.recipe .structure-entry {
+  background: #fff;
+  border: none;
+  margin-bottom: 0;
+}
+.recipe .structure-entry:last-child {
+  margin-bottom: 0;
+}
+.recipe .structure-entry-content {
+  padding: 1em 1.5em;
+  border-top: none;
+  cursor: move;
+}
+.recipe .structure-entry-options .btn {
+  padding: 1.5em .75em;
+  width: auto;
+  float: right;
+  border: none;
+}
+.recipe .structure-after-button,
+.recipe .structure-add-button {
+  float: right;
+  padding: .75em;
+  background: #fff;
+  cursor: hand;
+}
+.recipe .structure-empty {
+  padding: 1.5em;
+  background: #ddd;
+}
+.recipe .structure-empty a {
+  border-bottom: 2px solid #aaa;
+  margin-left: .5em;
+}
+.recipe .structure-empty a:hover {
+  border-color: #000;
+}
