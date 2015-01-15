@@ -22,6 +22,11 @@ fields:
       amount:
         label: amount
         type: text
+  directionsinfo:
+    label: Direction steps
+    type: info
+    text: >
+      Any steps that start with a title "\###" will not be numbered in the list. Use this to put information in the directions. Such as **Day of** or *Optional* steps.
   directions:
     label: Directions
     type: recipe
